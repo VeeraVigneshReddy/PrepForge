@@ -3,25 +3,30 @@
 
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>PrepForge - Dashboard</title>
 
+    <!-- Common CSS -->
     <link rel="stylesheet" href="../css/common.css">
+
+    <!-- Dashboard CSS -->
     <link rel="stylesheet" href="../css/dashboard.css">
 </head>
 
 <body>
 
-    <!-- =========================================
+    <!-- =========================
          DASHBOARD CONTAINER
-    ========================================== -->
+    ========================== -->
     <div class="dashboard-container">
 
-        <!-- =========================================
+
+        <!-- =========================
              SIDEBAR
-        ========================================== -->
-        <aside class="sidebar" id="sidebar">
+        ========================== -->
+        <aside class="sidebar">
 
             <!-- Logo -->
             <div class="logo-section">
@@ -82,7 +87,7 @@
             <!-- Sidebar Bottom -->
             <div class="sidebar-bottom">
 
-                <!-- Promotion -->
+                <!-- Promotion Card -->
                 <div class="promotion-card">
 
                     <div class="promotion-image">
@@ -110,7 +115,7 @@
 
 
                 <!-- Logout -->
-                <a href="#" class="nav-item" id="logoutButton">
+                <a href="#" class="nav-item">
                     <span class="nav-icon">⇥</span>
                     <span>Logout</span>
                 </a>
@@ -120,27 +125,17 @@
         </aside>
 
 
-        <!-- =========================================
+
+        <!-- =========================
              MAIN CONTENT
-        ========================================== -->
-        <main class="main-content" id="mainContent">
+        ========================== -->
+        <main class="main-content">
 
 
-            <!-- =========================================
+            <!-- =========================
                  TOP NAVBAR
-            ========================================== -->
+            ========================== -->
             <header class="top-navbar">
-
-
-                <!-- Hamburger -->
-                <button
-                    type="button"
-                    id="menuButton"
-                    class="menu-button"
-                    aria-label="Open menu"
-                    aria-expanded="false">
-                    ☰
-                </button>
 
 
                 <!-- Search -->
@@ -152,7 +147,6 @@
 
                     <input
                         type="text"
-                        id="dashboardSearch"
                         placeholder="Search companies, topics, tests..."
                     >
 
@@ -180,7 +174,7 @@
                     <!-- Profile -->
                     <div class="navbar-profile">
 
-                        <div class="profile-image" id="profileInitial">
+                        <div class="profile-image">
                             S
                         </div>
 
@@ -208,15 +202,15 @@
 
 
 
-            <!-- =========================================
+            <!-- =========================
                  DASHBOARD CONTENT
-            ========================================== -->
+            ========================== -->
             <div class="dashboard-content">
 
 
-                <!-- =========================================
+                <!-- =========================
                      WELCOME BANNER
-                ========================================== -->
+                ========================== -->
                 <section class="welcome-banner">
 
                     <div class="welcome-text">
@@ -251,9 +245,9 @@
 
 
 
-                <!-- =========================================
-                     STATISTICS
-                ========================================== -->
+                <!-- =========================
+                     STATISTICS SECTION
+                ========================== -->
                 <section class="statistics-section">
 
 
@@ -387,12 +381,13 @@
 
 
 
-                <!-- =========================================
+                <!-- =========================
                      EXPLORE COMPANIES
-                ========================================== -->
+                ========================== -->
                 <section class="dashboard-section">
 
 
+                    <!-- Section Header -->
                     <div class="section-header">
 
                         <div>
@@ -598,306 +593,11 @@
                             <p>
                                 CSE / IT &nbsp; • &nbsp; 6+ CGPA
                             </p>
-
-                            <p>
-                                DSA &nbsp; • &nbsp; OOP &nbsp; • &nbsp; System Design
-                            </p>
-
-                            <span class="difficulty high">
-                                ● High
-                            </span>
-
-                            <button>
-                                View Details →
-                            </button>
-
-                        </article>
-
-
-
-                        <!-- Amazon -->
-                        <article class="company-card">
-
-                            <div class="company-header">
-
-                                <div class="company-logo amazon-logo">
-                                    amazon
-                                </div>
-
-                                <h3>
-                                    Amazon
-                                </h3>
-
-                            </div>
-
-                            <span class="company-type">
-                                Product Based
-                            </span>
-
-                            <p>
-                                CSE / IT &nbsp; • &nbsp; 6+ CGPA
-                            </p>
-
-                            <p>
-                                DSA &nbsp; • &nbsp; SQL &nbsp; • &nbsp; OOP
-                            </p>
-
-                            <span class="difficulty high">
-                                ● High
-                            </span>
-
-                            <button>
-                                View Details →
-                            </button>
-
-                        </article>
-
-                    </div>
-
-                </section>
-
-
-
-                <!-- =========================================
-                     LEARNING PATH
-                ========================================== -->
-                <section class="dashboard-section">
-
-
-                    <div class="section-header">
-
-                        <div>
-
-                            <h2>
-                                Your Learning Path
-                            </h2>
-
-                            <p>
-                                Continue where you left off
-                            </p>
-
-                        </div>
-
-                    </div>
-
-
-
-                    <div class="learning-cards">
-
-
-                        <!-- Aptitude -->
-                        <article class="learning-card aptitude-card">
-
-                            <div class="learning-card-top">
-
-                                <div class="learning-icon">
-                                    × ÷
-                                </div>
-
-                                <h3>
-                                    Aptitude
-                                </h3>
-
-                            </div>
-
-                            <div class="progress-bar">
-                                <div style="width: 68%;"></div>
-                            </div>
-
-                            <div class="progress-details">
-
-                                <span>
-                                    12/18 topics
-                                </span>
-
-                                <span>
-                                    68%
-                                </span>
-
-                            </div>
-
-                            <button>
-                                Continue →
-                            </button>
-
-                        </article>
-
-
-
-                        <!-- Reasoning -->
-                        <article class="learning-card reasoning-card">
-
-                            <div class="learning-card-top">
-
-                                <div class="learning-icon">
-                                    ◉
-                                </div>
-
-                                <h3>
-                                    Reasoning
-                                </h3>
-
-                            </div>
-
-                            <div class="progress-bar">
-                                <div style="width: 40%;"></div>
-                            </div>
-
-                            <div class="progress-details">
-
-                                <span>
-                                    9/17 topics
-                                </span>
-
-                                <span>
-                                    40%
-                                </span>
-
-                            </div>
-
-                            <button>
-                                Continue →
-                            </button>
-
-                        </article>
-
-
-
-                        <!-- Verbal -->
-                        <article class="learning-card verbal-card">
-
-                            <div class="learning-card-top">
-
-                                <div class="learning-icon">
-                                    📖
-                                </div>
-
-                                <h3>
-                                    Verbal
-                                </h3>
-
-                            </div>
-
-                            <div class="progress-bar">
-                                <div style="width: 40%;"></div>
-                            </div>
-
-                            <div class="progress-details">
-
-                                <span>
-                                    6/15 topics
-                                </span>
-
-                                <span>
-                                    40%
-                                </span>
-
-                            </div>
-
-                            <button>
-                                Continue →
-                            </button>
-
-                        </article>
-
-
-
-                        <!-- DSA -->
-                        <article class="learning-card dsa-card">
-
-                            <div class="learning-card-top">
-
-                                <div class="learning-icon">
-                                    &lt;/&gt;
-                                </div>
-
-                                <h3>
-                                    DSA
-                                </h3>
-
-                            </div>
-
-                            <div class="progress-bar">
-                                <div style="width: 50%;"></div>
-                            </div>
-
-                            <div class="progress-details">
-
-                                <span>
-                                    10/18 topics
-                                </span>
-
-                                <span>
-                                    50%
-                                </span>
-
-                            </div>
-
-                            <button>
-                                Continue →
-                            </button>
-
-                        </article>
-
-
-
-                        <!-- SQL -->
-                        <article class="learning-card sql-card">
-
-                            <div class="learning-card-top">
-
-                                <div class="learning-icon">
-                                    🗄
-                                </div>
-
-                                <h3>
-                                    SQL
-                                </h3>
-
-                            </div>
-
-                            <div class="progress-bar">
-                                <div style="width: 45%;"></div>
-                            </div>
-
-                            <div class="progress-details">
-
-                                <span>
-                                    6/14 topics
-                                </span>
-
-                                <span>
-                                    45%
-                                </span>
-
-                            </div>
-
-                            <button>
-                                Continue →
-                            </button>
-
-                        </article>
-
-                    </div>
-
-                </section>
-
-            </div>
-
-        </main>
-
-    </div>
-
-
-    <!-- =========================================
-     JAVASCRIPT
-========================================= -->
-
-<!-- Common functionality for ALL pages -->
-<script src="../javascript/common.js"></script>
-
-<!-- Dashboard-specific functionality -->
-<script src="../javascript/dashboard.js"></script>
+                                <!-- Common JavaScript -->
+    <script src="../js/common.js"></script>
+
+    <!-- Dashboard JavaScript -->
+    <script src="../js/dashboard.js"></script>
 
 </body>
 

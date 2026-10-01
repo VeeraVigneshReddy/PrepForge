@@ -1,0 +1,437 @@
+ /* ==========================================
+    PREPFORGE - COMMON CSS
+    Shared by ALL pages
+    ========================================== */
+
+
+/* ==========================================
+   GLOBAL COLORS
+   ========================================== */
+
+:root {
+
+    --primary-color: #2563eb;
+    --primary-hover: #1d4ed8;
+
+    --background-color: #f5f7fb;
+    --card-color: #ffffff;
+
+    --text-color: #172b4d;
+    --muted-color: #667085;
+
+    --border-color: #e4e7ec;
+    --hover-color: #f2f4f7;
+
+    --white: #ffffff;
+}
+
+
+/* ==========================================
+   GLOBAL RESET
+   ========================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+
+/* ==========================================
+   COMMON TOP NAVBAR
+   ========================================== */
+
+.top-navbar {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 30px;
+
+    background: var(--white);
+
+    border-bottom: 1px solid var(--border-color);
+
+    z-index: 900;
+
+    transform: translateY(0);
+
+    transition:
+        transform 0.3s ease;
+}
+
+
+/* Navbar hidden while scrolling */
+
+.top-navbar.navbar-hidden {
+    transform: translateY(-100%);
+}
+
+
+/* ==========================================
+   THREE BAR BUTTON
+   ========================================== */
+
+.menu-button {
+
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 15px;
+    padding: 0;
+
+    border: 1px solid var(--border-color);
+
+    border-radius: 8px;
+
+    background: var(--white);
+
+    color: var(--text-color);
+
+    font-size: 24px;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease;
+}
+
+
+.menu-button:hover {
+
+    background: var(--hover-color);
+
+    border-color: var(--primary-color);
+}
+
+
+/* ==========================================
+   PREPFORGE TITLE
+   ========================================== */
+
+.navbar-title {
+
+    font-size: 22px;
+
+    font-weight: 700;
+
+    color: var(--text-color);
+}
+
+
+/* ==========================================
+   PROFILE - TOP RIGHT
+   ========================================== */
+
+.navbar-profile {
+
+    margin-left: auto;
+
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+
+    color: var(--text-color);
+
+    font-size: 15px;
+
+    font-weight: 600;
+}
+
+
+/* Profile circle */
+
+.profile-avatar {
+
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: var(--primary-color);
+
+    color: var(--white);
+
+    font-size: 16px;
+
+    font-weight: 700;
+}
+
+
+/* ==========================================
+   SIDEBAR
+   ========================================== */
+
+.sidebar {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 260px;
+    height: 100vh;
+
+    padding: 25px 20px;
+
+    background: var(--white);
+
+    border-right: 1px solid var(--border-color);
+
+    z-index: 1000;
+
+    overflow-y: auto;
+
+    transform: translateX(-100%);
+
+    transition:
+        transform 0.3s ease;
+}
+
+
+/* ==========================================
+   SIDEBAR OPEN
+   ========================================== */
+
+.sidebar.sidebar-open {
+
+    transform: translateX(0);
+}
+
+
+/* ==========================================
+   SIDEBAR LOGO
+   ========================================== */
+
+.logo-section {
+
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    margin-bottom: 30px;
+}
+
+
+.logo-icon {
+
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+
+    background: var(--primary-color);
+
+    color: var(--white);
+
+    font-size: 20px;
+}
+
+
+.logo-text h2 {
+
+    margin: 0;
+
+    font-size: 20px;
+
+    color: var(--text-color);
+}
+
+
+.logo-text p {
+
+    margin: 3px 0 0;
+
+    font-size: 11px;
+
+    color: var(--muted-color);
+}
+
+
+/* ==========================================
+   SIDEBAR NAVIGATION
+   ========================================== */
+
+.sidebar-navigation {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 6px;
+}
+
+
+.nav-item {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 12px 14px;
+
+    border-radius: 8px;
+
+    color: var(--text-color);
+
+    text-decoration: none;
+
+    font-size: 15px;
+
+    transition:
+        background 0.2s ease,
+        color 0.2s ease;
+}
+
+
+.nav-item:hover {
+
+    background: var(--hover-color);
+}
+
+
+.nav-item.active {
+
+    background: var(--primary-color);
+
+    color: var(--white);
+}
+
+
+.nav-icon {
+
+    width: 22px;
+
+    text-align: center;
+
+    font-size: 18px;
+}
+
+
+/* ==========================================
+   COMMON MAIN CONTENT
+   ========================================== */
+
+.main-content {
+
+    min-height: 100vh;
+
+    padding: 100px 40px 30px;
+
+    background: var(--background-color);
+}
+
+
+/* ==========================================
+   RESPONSIVE
+   ========================================== */
+
+@media (max-width: 768px) {
+
+    .top-navbar {
+
+        height: 60px;
+
+        padding: 0 20px;
+    }
+
+
+    .navbar-title {
+
+        font-size: 20px;
+    }
+
+
+    .navbar-profile span {
+
+        display: none;
+    }
+
+
+    .main-content {
+
+        padding:
+            90px 20px 25px;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .top-navbar {
+
+        padding: 0 15px;
+    }
+
+
+    .menu-button {
+
+        width: 38px;
+        height: 38px;
+
+        font-size: 21px;
+    }
+
+
+    .navbar-title {
+
+        font-size: 18px;
+    }
+
+
+    .profile-avatar {
+
+        width: 36px;
+        height: 36px;
+    }
+
+
+    .main-content {
+
+        padding:
+            80px 15px 20px;
+    }
+
+}
