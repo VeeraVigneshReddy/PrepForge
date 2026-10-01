@@ -1,0 +1,716 @@
+
+
+/* =========================================================
+   PREPFORGE - MOCK TESTS
+   Mock Test Selection Page
+   ========================================================= */
+
+
+/* =========================
+   GLOBAL
+   ========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f7f5fa;
+    color: #292532;
+    line-height: 1.6;
+}
+
+button,
+a {
+    font-family: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+/* =========================
+   HEADER
+   ========================= */
+
+.main-header {
+    width: 100%;
+    height: 72px;
+    padding: 0 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #ffffff;
+    border-bottom: 1px solid #e8e3ed;
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+/* LOGO */
+
+.logo {
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #6d3f8f;
+}
+
+
+/* NAVIGATION */
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #625c69;
+    font-size: 15px;
+    font-weight: 600;
+
+    padding: 8px 4px;
+
+    transition: 0.25s ease;
+}
+
+.navigation a:hover {
+    color: #7b4ca0;
+}
+
+.navigation a.active {
+    color: #7b4ca0;
+}
+
+
+/* =========================
+   MAIN
+   ========================= */
+
+.mock-main {
+    width: min(1200px, 92%);
+    margin: 0 auto;
+    padding: 55px 0 80px;
+}
+
+
+/* =========================
+   PAGE INTRO
+   ========================= */
+
+.page-intro {
+    max-width: 760px;
+    margin: 0 auto 55px;
+    text-align: center;
+}
+
+.page-label {
+    display: inline-block;
+
+    color: #8a5aa8;
+    font-size: 12px;
+    font-weight: 800;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 12px;
+}
+
+.page-intro h1 {
+    font-size: 38px;
+    line-height: 1.2;
+    color: #292532;
+
+    margin-bottom: 16px;
+}
+
+.page-intro > p:last-child {
+    color: #756f7c;
+    font-size: 16px;
+    max-width: 650px;
+    margin: auto;
+}
+
+
+/* =========================
+   TEST TYPE SECTION
+   ========================= */
+
+.test-type-section {
+    margin-bottom: 65px;
+}
+
+.test-type-section > h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 28px;
+    color: #302a38;
+}
+
+.test-type-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+}
+
+
+/* =========================
+   TEST TYPE CARD
+   ========================= */
+
+.test-type-card {
+    background: #ffffff;
+
+    border: 1px solid #e5deeb;
+    border-radius: 18px;
+
+    padding: 32px;
+
+    box-shadow: 0 8px 25px rgba(58, 39, 70, 0.06);
+
+    transition: transform 0.25s ease,
+                box-shadow 0.25s ease,
+                border-color 0.25s ease;
+}
+
+.test-type-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 14px 35px rgba(58, 39, 70, 0.10);
+
+    border-color: #cbb3d9;
+}
+
+
+/* ICON */
+
+.card-icon {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 14px;
+
+    background: #f1e8f6;
+
+    font-size: 25px;
+
+    margin-bottom: 20px;
+}
+
+
+/* CARD TITLE */
+
+.test-type-card h3 {
+    font-size: 23px;
+    color: #302938;
+
+    margin-bottom: 12px;
+}
+
+.test-type-card > p {
+    color: #746d7b;
+    font-size: 14px;
+
+    margin-bottom: 20px;
+}
+
+
+/* CARD LIST */
+
+.test-type-card ul {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.test-type-card li {
+    color: #514b58;
+    font-size: 14px;
+
+    margin-bottom: 9px;
+
+    position: relative;
+    padding-left: 23px;
+}
+
+.test-type-card li::before {
+    content: "✓";
+
+    position: absolute;
+    left: 0;
+
+    color: #8a5aa8;
+    font-weight: bold;
+}
+
+
+/* =========================
+   BUTTONS
+   ========================= */
+
+.selection-btn {
+    width: 100%;
+
+    border: none;
+    border-radius: 10px;
+
+    padding: 13px 20px;
+
+    background: #70438f;
+    color: white;
+
+    font-size: 14px;
+    font-weight: 700;
+
+    transition: 0.25s ease;
+}
+
+.selection-btn:hover {
+    background: #5e3579;
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   SELECTION PANELS
+   ========================= */
+
+.selection-panel,
+.section-selection {
+    background: #ffffff;
+
+    border: 1px solid #e5deeb;
+    border-radius: 18px;
+
+    padding: 35px;
+
+    margin-bottom: 45px;
+
+    box-shadow: 0 7px 25px rgba(58, 39, 70, 0.05);
+}
+
+
+/* =========================
+   PANEL HEADER
+   ========================= */
+
+.panel-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.panel-label {
+    font-size: 11px;
+    font-weight: 800;
+
+    letter-spacing: 2px;
+
+    color: #8a5aa8;
+}
+
+.panel-header h2 {
+    font-size: 27px;
+    margin: 7px 0 8px;
+}
+
+.panel-header p {
+    color: #756e7c;
+    font-size: 14px;
+}
+
+
+/* =========================
+   COMPANY GRID
+   ========================= */
+
+.company-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 15px;
+}
+
+.company-option {
+    background: #fbf9fc;
+
+    border: 1px solid #e4dce9;
+    border-radius: 12px;
+
+    padding: 18px;
+
+    text-align: left;
+
+    transition: 0.25s ease;
+}
+
+.company-option:hover {
+    background: #f4edf7;
+    border-color: #b997c8;
+    transform: translateY(-2px);
+}
+
+.company-option strong {
+    display: block;
+
+    color: #352d3d;
+    font-size: 15px;
+
+    margin-bottom: 4px;
+}
+
+.company-option span {
+    color: #8b838f;
+    font-size: 12px;
+}
+
+
+/* =========================
+   SECTION SELECTION
+   ========================= */
+
+.selected-company,
+.selected-mode {
+    text-align: center;
+
+    padding-bottom: 25px;
+
+    border-bottom: 1px solid #eee8f1;
+
+    margin-bottom: 30px;
+}
+
+.selected-company span,
+.selected-mode span {
+    font-size: 11px;
+    font-weight: 800;
+
+    letter-spacing: 1.8px;
+
+    color: #9470a8;
+}
+
+.selected-company h2,
+.selected-mode h2 {
+    font-size: 29px;
+
+    color: #302837;
+
+    margin-top: 4px;
+}
+
+
+/* SECTION HEADING */
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-heading h2 {
+    font-size: 24px;
+    color: #302837;
+}
+
+.section-heading p {
+    color: #77707e;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+/* =========================
+   SECTION GRID
+   ========================= */
+
+.section-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+
+/* =========================
+   SECTION CARD
+   ========================= */
+
+.section-card {
+    border: 1px solid #e5deeb;
+    border-radius: 15px;
+
+    padding: 25px;
+
+    background: #fcfbfd;
+
+    transition: 0.25s ease;
+}
+
+.section-card:hover {
+    border-color: #bea4cb;
+
+    background: #ffffff;
+
+    transform: translateY(-4px);
+
+    box-shadow: 0 10px 25px rgba(58, 39, 70, 0.08);
+}
+
+
+/* SECTION NUMBER */
+
+.section-number {
+    display: inline-flex;
+
+    width: 34px;
+    height: 34px;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 9px;
+
+    background: #f0e5f5;
+    color: #70438f;
+
+    font-size: 12px;
+    font-weight: 800;
+
+    margin-bottom: 16px;
+}
+
+
+/* SECTION TITLE */
+
+.section-card h3 {
+    font-size: 20px;
+    color: #322c39;
+
+    margin-bottom: 8px;
+}
+
+.section-card p {
+    color: #746e7a;
+    font-size: 13px;
+
+    min-height: 65px;
+
+    margin-bottom: 15px;
+}
+
+
+/* SECTION INFO */
+
+.section-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+
+    margin-bottom: 18px;
+}
+
+.section-info span {
+    background: #f4eef7;
+
+    color: #775487;
+
+    font-size: 10px;
+    font-weight: 700;
+
+    padding: 5px 8px;
+
+    border-radius: 6px;
+}
+
+
+/* SECTION BUTTON */
+
+.start-section-btn,
+.normal-section-btn {
+    width: 100%;
+
+    padding: 11px 15px;
+
+    border-radius: 9px;
+
+    border: 1px solid #70438f;
+
+    background: transparent;
+
+    color: #70438f;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    transition: 0.25s ease;
+}
+
+.start-section-btn:hover,
+.normal-section-btn:hover {
+    background: #70438f;
+    color: #ffffff;
+}
+
+
+/* =========================
+   DIFFICULTY
+   ========================= */
+
+.difficulty-container {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+.difficulty-card {
+    background: #fcfbfd;
+
+    border: 1px solid #e4dce9;
+
+    border-radius: 15px;
+
+    padding: 28px;
+
+    text-align: center;
+
+    transition: 0.25s ease;
+}
+
+.difficulty-card:hover {
+    transform: translateY(-4px);
+
+    border-color: #b997c8;
+
+    background: #ffffff;
+
+    box-shadow: 0 10px 25px rgba(58, 39, 70, 0.08);
+}
+
+.difficulty-level {
+    display: inline-block;
+
+    font-size: 10px;
+    font-weight: 800;
+
+    letter-spacing: 1.5px;
+
+    color: #8a5aa8;
+
+    margin-bottom: 8px;
+}
+
+.difficulty-card h3 {
+    font-size: 22px;
+
+    color: #332c3a;
+
+    margin-bottom: 8px;
+}
+
+.difficulty-card p {
+    font-size: 13px;
+
+    color: #756e7b;
+}
+
+
+/* =========================
+   HIDDEN SECTIONS
+   ========================= */
+
+#companySelection,
+#companySections,
+#normalSelection,
+#normalSections {
+    display: none;
+}
+
+
+/* =========================
+   RESPONSIVE
+   ========================= */
+
+@media (max-width: 900px) {
+
+    .main-header {
+        padding: 0 25px;
+    }
+
+    .navigation {
+        gap: 15px;
+    }
+
+    .test-type-container {
+        grid-template-columns: 1fr;
+    }
+
+    .company-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .difficulty-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .main-header {
+        height: auto;
+        padding: 18px 20px;
+
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .navigation {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .mock-main {
+        width: 94%;
+        padding-top: 35px;
+    }
+
+    .page-intro h1 {
+        font-size: 30px;
+    }
+
+    .selection-panel,
+    .section-selection {
+        padding: 22px;
+    }
+
+    .company-grid,
+    .section-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .test-type-card {
+        padding: 25px;
+    }
+
+}

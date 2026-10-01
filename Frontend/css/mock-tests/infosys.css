@@ -1,0 +1,728 @@
+/* =========================================
+   PREPFORGE - INFOSYS MOCK TESTS
+========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f7f5fb;
+    color: #29263d;
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.main-header {
+    height: 72px;
+    background: #ffffff;
+    border-bottom: 1px solid #e8e3f0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 45px;
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+/* LOGO */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 22px;
+    font-weight: 800;
+    color: #302943;
+}
+
+.logo-icon {
+    width: 38px;
+    height: 38px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #65479a;
+    color: white;
+
+    border-radius: 10px;
+
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.logo span span {
+    color: #65479a;
+}
+
+
+/* NAVIGATION */
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #686174;
+
+    font-size: 14px;
+    font-weight: 500;
+
+    padding: 8px 2px;
+
+    transition: 0.2s;
+}
+
+.nav-item:hover {
+    color: #65479a;
+}
+
+.nav-item.active {
+    color: #65479a;
+    font-weight: 700;
+}
+
+
+/* =========================================
+   MAIN
+========================================= */
+
+.infosys-main {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    padding: 32px 30px 60px;
+}
+
+
+/* =========================================
+   BACK BUTTON
+========================================= */
+
+.back-button {
+    display: inline-flex;
+    align-items: center;
+
+    gap: 7px;
+
+    text-decoration: none;
+
+    color: #65479a;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    margin-bottom: 24px;
+}
+
+.back-button:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.infosys-hero {
+    min-height: 220px;
+
+    background: linear-gradient(
+        135deg,
+        #5b418b,
+        #8065ad
+    );
+
+    border-radius: 22px;
+
+    padding: 40px 45px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 30px;
+
+    color: white;
+
+    box-shadow: 0 12px 30px rgba(72, 52, 105, 0.16);
+
+    margin-bottom: 42px;
+}
+
+
+/* COMPANY LOGO */
+
+.company-logo-box {
+    width: 105px;
+    height: 105px;
+
+    flex-shrink: 0;
+
+    background: white;
+
+    border-radius: 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #65479a;
+
+    font-size: 16px;
+    font-weight: 800;
+
+    letter-spacing: 1px;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+/* HERO CONTENT */
+
+.hero-content {
+    max-width: 760px;
+}
+
+.company-tag {
+    display: inline-block;
+
+    background: rgba(255, 255, 255, 0.15);
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    padding: 6px 12px;
+
+    border-radius: 20px;
+
+    font-size: 11px;
+    font-weight: 700;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 13px;
+}
+
+.hero-content h1 {
+    font-size: 34px;
+
+    line-height: 1.2;
+
+    margin-bottom: 12px;
+}
+
+.hero-content p {
+    font-size: 15px;
+
+    line-height: 1.65;
+
+    opacity: 0.92;
+}
+
+
+/* =========================================
+   SECTION HEADING
+========================================= */
+
+.section-heading {
+    display: flex;
+    align-items: flex-start;
+
+    gap: 15px;
+
+    margin-bottom: 22px;
+}
+
+.heading-number {
+    color: #65479a;
+
+    font-size: 13px;
+
+    font-weight: 800;
+
+    padding-top: 5px;
+}
+
+.section-heading h2 {
+    font-size: 25px;
+
+    color: #29263d;
+
+    margin-bottom: 5px;
+}
+
+.section-heading p {
+    color: #777186;
+
+    font-size: 14px;
+}
+
+
+/* =========================================
+   INSTRUCTIONS
+========================================= */
+
+.instructions-section {
+    margin-bottom: 48px;
+}
+
+.instructions-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 17px;
+}
+
+
+/* INSTRUCTION CARD */
+
+.instruction-card {
+    background: #ffffff;
+
+    border: 1px solid #e8e3f0;
+
+    border-radius: 15px;
+
+    padding: 21px;
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 15px;
+
+    box-shadow: 0 4px 15px rgba(55, 42, 80, 0.05);
+
+    transition: 0.2s;
+}
+
+.instruction-card:hover {
+    transform: translateY(-2px);
+
+    box-shadow: 0 8px 22px rgba(55, 42, 80, 0.09);
+}
+
+
+/* INSTRUCTION ICON */
+
+.instruction-icon {
+    width: 45px;
+    height: 45px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #eee8f8;
+
+    color: #65479a;
+
+    border-radius: 11px;
+
+    font-size: 20px;
+
+    font-weight: 700;
+}
+
+.instruction-card h3 {
+    font-size: 16px;
+
+    margin-bottom: 7px;
+
+    color: #302943;
+}
+
+.instruction-card p {
+    color: #777186;
+
+    font-size: 13px;
+
+    line-height: 1.55;
+}
+
+
+/* =========================================
+   TEST SECTION
+========================================= */
+
+.test-sections {
+    margin-bottom: 45px;
+}
+
+.test-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+
+/* =========================================
+   TEST CARD
+========================================= */
+
+.test-card {
+    background: #ffffff;
+
+    border: 1px solid #e7e2ef;
+
+    border-radius: 17px;
+
+    padding: 24px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    min-height: 360px;
+
+    box-shadow: 0 5px 18px rgba(55, 42, 80, 0.06);
+
+    transition: all 0.25s ease;
+}
+
+.test-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 12px 28px rgba(55, 42, 80, 0.12);
+
+    border-color: #d9cde9;
+}
+
+
+/* TEST NUMBER */
+
+.test-number {
+    font-size: 12px;
+
+    font-weight: 800;
+
+    color: #8065ad;
+
+    margin-bottom: 13px;
+}
+
+
+/* TEST ICON */
+
+.test-icon {
+    width: 52px;
+    height: 52px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #eee8f8;
+
+    color: #65479a;
+
+    border-radius: 13px;
+
+    font-size: 21px;
+
+    font-weight: 700;
+
+    margin-bottom: 17px;
+}
+
+
+/* TEST CONTENT */
+
+.test-content {
+    flex: 1;
+}
+
+.test-content h3 {
+    font-size: 19px;
+
+    color: #302943;
+
+    margin-bottom: 8px;
+}
+
+.test-content p {
+    color: #777186;
+
+    font-size: 13px;
+
+    line-height: 1.55;
+
+    margin-bottom: 17px;
+}
+
+
+/* =========================================
+   TOPICS
+========================================= */
+
+.test-topics {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 7px;
+
+    margin-bottom: 20px;
+}
+
+.test-topics span {
+    background: #f3f0f7;
+
+    color: #625a72;
+
+    padding: 6px 9px;
+
+    border-radius: 7px;
+
+    font-size: 11px;
+
+    font-weight: 500;
+}
+
+
+/* =========================================
+   START TEST BUTTON
+========================================= */
+
+.start-test-btn {
+    display: block;
+
+    width: 100%;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    background: #65479a;
+
+    color: white;
+
+    padding: 11px 15px;
+
+    border-radius: 9px;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    transition: 0.2s;
+}
+
+.start-test-btn:hover {
+    background: #51377e;
+
+    transform: translateY(-1px);
+}
+
+
+/* =========================================
+   CODING CARD
+========================================= */
+
+.coding-card {
+    border-color: #d9cde9;
+}
+
+.coding-card .test-icon {
+    background: #e8e0f3;
+}
+
+
+/* =========================================
+   SOURCE SECTION
+========================================= */
+
+.source-section {
+    background: #f0ebf7;
+
+    border: 1px solid #e2d9ed;
+
+    border-left: 4px solid #65479a;
+
+    border-radius: 10px;
+
+    padding: 20px 22px;
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 15px;
+
+    margin-top: 10px;
+}
+
+.source-icon {
+    width: 35px;
+    height: 35px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #65479a;
+
+    color: white;
+
+    border-radius: 50%;
+
+    font-size: 14px;
+
+    font-weight: 700;
+}
+
+.source-section h3 {
+    color: #302943;
+
+    font-size: 16px;
+
+    margin-bottom: 6px;
+}
+
+.source-section p {
+    color: #6e667b;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.main-footer {
+    background: #ffffff;
+
+    border-top: 1px solid #e8e3f0;
+
+    text-align: center;
+
+    padding: 22px;
+
+    color: #81798c;
+
+    font-size: 12px;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 950px) {
+
+    .main-header {
+        padding: 0 25px;
+    }
+
+    .navigation {
+        gap: 15px;
+    }
+
+    .infosys-main {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .test-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .infosys-hero {
+        padding: 32px;
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    .main-header {
+        height: auto;
+
+        flex-direction: column;
+
+        gap: 15px;
+
+        padding: 17px;
+    }
+
+    .navigation {
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        gap: 12px 18px;
+    }
+
+    .infosys-hero {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        padding: 28px;
+
+        gap: 20px;
+    }
+
+    .company-logo-box {
+        width: 80px;
+        height: 80px;
+    }
+
+    .hero-content h1 {
+        font-size: 28px;
+    }
+
+    .instructions-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .test-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 450px) {
+
+    .infosys-main {
+        padding: 22px 14px 40px;
+    }
+
+    .infosys-hero {
+        border-radius: 16px;
+    }
+
+    .section-heading h2 {
+        font-size: 22px;
+    }
+
+    .test-card {
+        padding: 20px;
+    }
+}
