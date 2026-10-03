@@ -1,0 +1,221 @@
+{
+  "trackId": "verbal",
+  "topics": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "description": "Core grammar rules used in placement tests.",
+      "difficulty": "Beginner",
+      "estimatedTime": "20–30 min",
+      "learn": {
+        "title": "Grammar",
+        "sections": [
+          {
+            "heading": "Tip",
+            "content": "Check subject-verb agreement, tense and prepositions."
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Worked Example",
+          "explanation": "Break the problem into smaller steps, apply the relevant rule, and verify the result."
+        }
+      ],
+      "practice": [
+        {
+          "question": "Choose the correct sentence.",
+          "options": [
+            "She go to college.",
+            "She goes to college.",
+            "She going to college.",
+            "She gone to college."
+          ],
+          "answer": "She goes to college.",
+          "explanation": "She takes the singular verb goes.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "They ___ playing cricket.",
+          "options": [
+            "is",
+            "are",
+            "was",
+            "be"
+          ],
+          "answer": "are",
+          "explanation": "They takes are.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Choose the correct sentence.",
+          "options": [
+            "He have a car.",
+            "He has a car.",
+            "He having a car.",
+            "He had has a car."
+          ],
+          "answer": "He has a car.",
+          "explanation": "He takes has.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Choose the correct sentence.",
+          "options": [
+            "I am interested in AI.",
+            "I am interested on AI.",
+            "I am interested at AI.",
+            "I interested in AI."
+          ],
+          "answer": "I am interested in AI",
+          "explanation": "The standard expression is interested in.",
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "synonyms-antonyms",
+      "title": "Synonyms & Antonyms",
+      "description": "Build vocabulary through word relationships.",
+      "difficulty": "Beginner",
+      "estimatedTime": "20–30 min",
+      "learn": {
+        "title": "Synonyms & Antonyms",
+        "sections": [
+          {
+            "heading": "Method",
+            "content": "Identify the exact meaning before choosing a synonym or opposite."
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Worked Example",
+          "explanation": "Break the problem into smaller steps, apply the relevant rule, and verify the result."
+        }
+      ],
+      "practice": [
+        {
+          "question": "Synonym of rapid:",
+          "options": [
+            "Slow",
+            "Quick",
+            "Weak",
+            "Late"
+          ],
+          "answer": "Quick",
+          "explanation": "Rapid means quick.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Antonym of ancient:",
+          "options": [
+            "Old",
+            "Modern",
+            "Historic",
+            "Past"
+          ],
+          "answer": "Modern",
+          "explanation": "Modern is opposite to ancient.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Synonym of assist:",
+          "options": [
+            "Help",
+            "Harm",
+            "Ignore",
+            "Delay"
+          ],
+          "answer": "Help",
+          "explanation": "Assist means help.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Antonym of expand:",
+          "options": [
+            "Grow",
+            "Increase",
+            "Contract",
+            "Extend"
+          ],
+          "answer": "Contract",
+          "explanation": "Contract means become smaller.",
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "sentence-correction",
+      "title": "Sentence Correction",
+      "description": "Identify and fix common grammar errors.",
+      "difficulty": "Beginner",
+      "estimatedTime": "20–30 min",
+      "learn": {
+        "title": "Sentence Correction",
+        "sections": [
+          {
+            "heading": "Tip",
+            "content": "After auxiliary verbs such as doesn't, use the base verb."
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Worked Example",
+          "explanation": "Break the problem into smaller steps, apply the relevant rule, and verify the result."
+        }
+      ],
+      "practice": [
+        {
+          "question": "Correct: She don't like coffee.",
+          "options": [
+            "She don't like coffee.",
+            "She doesn't like coffee.",
+            "She doesn't likes coffee.",
+            "She not like coffee."
+          ],
+          "answer": "She doesn't like coffee.",
+          "explanation": "Doesn't takes the base verb like.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Correct: Each students are ready.",
+          "options": [
+            "Each students are ready.",
+            "Each student is ready.",
+            "Each student are ready.",
+            "Each students is ready."
+          ],
+          "answer": "Each student is ready",
+          "explanation": "Each is singular.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Correct: He is senior than me.",
+          "options": [
+            "He is senior than me.",
+            "He is senior to me.",
+            "He senior to me.",
+            "He is senior from me."
+          ],
+          "answer": "He is senior to me",
+          "explanation": "The standard construction is senior to.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Correct: I have seen him yesterday.",
+          "options": [
+            "I have seen him yesterday.",
+            "I saw him yesterday.",
+            "I seen him yesterday.",
+            "I had see him yesterday."
+          ],
+          "answer": "I saw him yesterday",
+          "explanation": "Yesterday refers to a completed past time.",
+          "difficulty": "Easy"
+        }
+      ]
+    }
+  ]
+}
