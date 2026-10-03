@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Training | PrepForge</title>
+
+    <!-- Existing PrepForge CSS -->
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="../css/training.css">
+
+    <style>
+
+.training-progress-overview {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 20px;
+}
+
+.overall-progress-card {
+    background: white;
+    border: 1px solid #e1e7f0;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.progress-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.progress-label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    color: #60708c;
+}
+
+.overall-progress-card h2 {
+    font-size: 38px;
+    margin: 8px 0 2px;
+    color: #163b80;
+}
+
+.overall-progress-card p {
+    margin: 0;
+    color: #6b7890;
+}
+
+.progress-circle {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: #eef4ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2868ed;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.large-progress-bar {
+    height: 10px;
+    background: #e8edf4;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 22px;
+}
+
+.large-progress-bar div {
+    height: 100%;
+    background: #2868ed;
+    border-radius: 20px;
+    transition: width 0.5s ease;
+}
+
+.progress-message {
+    margin-top: 12px !important;
+    font-size: 13px;
+}
+
+.progress-bar {
+    height: 10px;
+    background: #e8edf4;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    border-radius: 20px;
+    transition: width 0.7s ease-in-out;
+}
+.training-mini-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.training-stat-card {
+    background: white;
+    border: 1px solid #e1e7f0;
+    border-radius: 14px;
+    padding: 16px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.stat-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    background: #eef4ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+.training-stat-card strong {
+    display: block;
+    font-size: 20px;
+    color: #163b80;
+}
+
+.training-stat-card span {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #4f607a;
+    margin-top: 2px;
+}
+
+.training-stat-card small {
+    display: block;
+    font-size: 10px;
+    color: #8995a8;
+    margin-top: 4px;
+}
+
+.streak-card .stat-icon {
+    background: #fff3df;
+}
+
+.progress-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: #718096;
+    margin-top: 6px;
+}
+
+@media (max-width: 900px) {
+    .training-progress-overview {
+        grid-template-columns: 1fr;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="dashboard-container">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="sidebar-header">
+            <h2>PrepForge</h2>
+        </div>
+
+        <nav class="sidebar-nav">
+
+            <a href="dashboard.html">
+                🏠 Dashboard
+            </a>
+
+            <a href="training.html" class="active">
+                📚 Training
+            </a>
+
+            <a href="performance.html">
+                📈 Performance
+            </a>
+
+            <a href="resources.html">
+                📖 Resources
+            </a>
+
+            <a href="companies.html">
+                🏢 Companies
+            </a>
+
+            <a href="profile.html">
+                👤 Profile
+            </a>
+
+            <a href="settings.html">
+                ⚙️ Settings
+            </a>
+
+        </nav>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+        <!-- TOP NAVBAR -->
+        <header class="top-navbar">
+
+            <div class="navbar-left">
+
+                <button
+                    class="menu-button"
+                    id="menuButton">
+                    ☰
+                </button>
+
+                <div class="page-title">
+                    Training
+                </div>
+
+            </div>
+
+
+            <div class="navbar-right">
+
+                <div class="search-container">
+
+                    <input
+                        id="trainingSearch"
+                        type="text"
+                        placeholder="Search topics...">
+
+                </div>
+
+                <div class="profile-mini">
+                    <span>BD</span>
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- TRAINING CONTENT -->
+        <div class="dashboard-content">
+
+            <!-- JavaScript dynamically builds the complete
+                 Training interface inside this element -->
+            <div id="trainingApp"></div>
+
+        </div>
+
+    </main>
+
+</div>
+
+
+<!-- Training JavaScript -->
+<script src="../javascript/training.js"></script>
+
+</body>
+</html>
