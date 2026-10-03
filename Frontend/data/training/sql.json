@@ -1,0 +1,293 @@
+{
+  "trackId": "sql",
+  "topics": [
+    {
+      "id": "select-where",
+      "title": "SELECT & WHERE",
+      "description": "Retrieve and filter rows.",
+      "difficulty": "Beginner",
+      "estimatedTime": "20–30 min",
+      "learn": {
+        "title": "SELECT & WHERE",
+        "sections": [
+          {
+            "heading": "Query habit",
+            "content": "Start with SELECT and FROM, then add WHERE conditions as needed."
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Worked Example",
+          "explanation": "Break the problem into smaller steps, apply the relevant rule, and verify the result."
+        }
+      ],
+      "practice": [
+        {
+          "question": "Which statement retrieves rows?",
+          "options": [
+            "SELECT",
+            "INSERT",
+            "DELETE",
+            "DROP"
+          ],
+          "answer": "SELECT",
+          "explanation": "SELECT retrieves data.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Which clause filters rows?",
+          "options": [
+            "WHERE",
+            "GROUP BY",
+            "ORDER BY",
+            "JOIN"
+          ],
+          "answer": "WHERE",
+          "explanation": "WHERE filters rows.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "SQL equality operator:",
+          "options": [
+            "=",
+            "==",
+            "===",
+            "equals"
+          ],
+          "answer": "=",
+          "explanation": "SQL uses a single equals sign.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Remove duplicate result rows:",
+          "options": [
+            "DISTINCT",
+            "UNIQUEONLY",
+            "DIFFERENT",
+            "REMOVE"
+          ],
+          "answer": "DISTINCT",
+          "explanation": "DISTINCT removes duplicates.",
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "aggregate-groupby",
+      "title": "Aggregates & GROUP BY",
+      "description": "Summarize data with aggregate functions.",
+      "difficulty": "Beginner",
+      "estimatedTime": "20–30 min",
+      "learn": {
+        "title": "Aggregates & GROUP BY",
+        "sections": [
+          {
+            "heading": "Core functions",
+            "content": "COUNT, SUM, AVG, MIN and MAX are common aggregate functions."
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Worked Example",
+          "explanation": "Break the problem into smaller steps, apply the relevant rule, and verify the result."
+        }
+      ],
+      "practice": [
+        {
+          "question": "Function for row count:",
+          "options": [
+            "COUNT",
+            "SUM",
+            "AVG",
+            "MAX"
+          ],
+          "answer": "COUNT",
+          "explanation": "COUNT counts rows/values depending on the argument.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Function for average:",
+          "options": [
+            "AVG",
+            "MEANSQL",
+            "SUM",
+            "MID"
+          ],
+          "answer": "AVG",
+          "explanation": "AVG calculates the mean.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Clause that groups rows:",
+          "options": [
+            "GROUP BY",
+            "ORDER BY",
+            "WHERE",
+            "VALUES"
+          ],
+          "answer": "GROUP BY",
+          "explanation": "GROUP BY forms groups.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Clause that filters grouped results:",
+          "options": [
+            "HAVING",
+            "WHERE",
+            "FILTERGROUP",
+            "AFTER"
+          ],
+          "answer": "HAVING",
+          "explanation": "HAVING applies after grouping.",
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "joins",
+      "title": "SQL Joins",
+      "description": "Combine related data from multiple tables.",
+      "difficulty": "Beginner",
+      "estimatedTime": "20–30 min",
+      "learn": {
+        "title": "SQL Joins",
+        "sections": [
+          {
+            "heading": "Core idea",
+            "content": "Joins connect related rows using a join condition."
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Worked Example",
+          "explanation": "Break the problem into smaller steps, apply the relevant rule, and verify the result."
+        }
+      ],
+      "practice": [
+        {
+          "question": "Matching rows from both tables:",
+          "options": [
+            "INNER JOIN",
+            "LEFT JOIN",
+            "CROSS JOIN",
+            "FULL ONLY"
+          ],
+          "answer": "INNER JOIN",
+          "explanation": "INNER JOIN returns matches.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Keep all rows from the left table:",
+          "options": [
+            "LEFT JOIN",
+            "INNER JOIN",
+            "RIGHT ONLY",
+            "CROSS JOIN"
+          ],
+          "answer": "LEFT JOIN",
+          "explanation": "LEFT JOIN preserves left rows.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Joins commonly connect tables using:",
+          "options": [
+            "Related columns",
+            "Only row numbers",
+            "File names",
+            "Indexes only"
+          ],
+          "answer": "Related columns",
+          "explanation": "Keys are commonly used.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Every combination of two tables:",
+          "options": [
+            "CROSS JOIN",
+            "INNER JOIN",
+            "LEFT JOIN",
+            "SELF JOIN only"
+          ],
+          "answer": "CROSS JOIN",
+          "explanation": "It produces a Cartesian product.",
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "subqueries-case",
+      "title": "Subqueries & CASE",
+      "description": "Use nested queries and conditional expressions.",
+      "difficulty": "Beginner",
+      "estimatedTime": "20–30 min",
+      "learn": {
+        "title": "Subqueries & CASE",
+        "sections": [
+          {
+            "heading": "Tip",
+            "content": "Use subqueries when a query needs a result produced by another query."
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Worked Example",
+          "explanation": "Break the problem into smaller steps, apply the relevant rule, and verify the result."
+        }
+      ],
+      "practice": [
+        {
+          "question": "A query inside another query is a:",
+          "options": [
+            "Subquery",
+            "Trigger",
+            "Index",
+            "View only"
+          ],
+          "answer": "Subquery",
+          "explanation": "It is nested inside another SQL statement.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Conditional SQL expression:",
+          "options": [
+            "CASE",
+            "WHENONLY",
+            "IFSQL",
+            "SWITCH"
+          ],
+          "answer": "CASE",
+          "explanation": "CASE provides conditional logic.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Test whether a subquery returns rows:",
+          "options": [
+            "EXISTS",
+            "HASROWS",
+            "FOUND",
+            "ROWS"
+          ],
+          "answer": "EXISTS",
+          "explanation": "EXISTS checks for at least one row.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "A correlated subquery can refer to:",
+          "options": [
+            "A column from the outer query",
+            "Only constants",
+            "A CSS class",
+            "A file path"
+          ],
+          "answer": "A column from the outer query",
+          "explanation": "It depends on the outer query.",
+          "difficulty": "Easy"
+        }
+      ]
+    }
+  ]
+}
