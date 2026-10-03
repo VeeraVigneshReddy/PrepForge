@@ -1,0 +1,501 @@
+{
+  "trackId": "aptitude",
+  "topics": [
+    {
+      "id": "percentages",
+      "title": "Percentages",
+      "description": "Percentage calculations and percentage change.",
+      "difficulty": "Beginner",
+      "estimatedTime": "20–30 min",
+      "learn": {
+        "title": "Percentages",
+        "sections": [
+          {
+            "heading": "Core idea",
+            "content": "Percentage means a value out of 100."
+          },
+          {
+            "heading": "Formula",
+            "content": "Percentage = Part ÷ Whole × 100."
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Worked Example",
+          "explanation": "Break the problem into smaller steps, apply the relevant rule, and verify the result."
+        }
+      ],
+      "practice": [
+        {
+          "question": "What is 20% of 150?",
+          "options": [
+            "20",
+            "30",
+            "40",
+            "50"
+          ],
+          "answer": "30",
+          "explanation": "20% of 150 = 20/100 × 150 = 30.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "What is 15% of 200?",
+          "options": [
+            "20",
+            "30",
+            "40",
+            "50"
+          ],
+          "answer": "30",
+          "explanation": "15% of 200 = 15/100 × 200 = 30.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "What is 35% of 400?",
+          "options": [
+            "130",
+            "140",
+            "150",
+            "160"
+          ],
+          "answer": "140",
+          "explanation": "35% of 400 = 35/100 × 400 = 140.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "What is 12% of 250?",
+          "options": [
+            "20",
+            "30",
+            "40",
+            "50"
+          ],
+          "answer": "30",
+          "explanation": "12% of 250 = 12/100 × 250 = 30.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "What is 25% of 360?",
+          "options": [
+            "80",
+            "90",
+            "100",
+            "110"
+          ],
+          "answer": "90",
+          "explanation": "25% of 360 = 25/100 × 360 = 90.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "What is 18% of 500?",
+          "options": [
+            "80",
+            "90",
+            "100",
+            "110"
+          ],
+          "answer": "90",
+          "explanation": "18% of 500 = 18/100 × 500 = 90.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "What is 8% of 750?",
+          "options": [
+            "50",
+            "60",
+            "70",
+            "80"
+          ],
+          "answer": "60",
+          "explanation": "8% of 750 = 8/100 × 750 = 60.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "What is 40% of 250?",
+          "options": [
+            "90",
+            "100",
+            "110",
+            "120"
+          ],
+          "answer": "100",
+          "explanation": "40% of 250 = 40/100 × 250 = 100.",
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "profit-loss",
+      "title": "Profit & Loss",
+      "description": "Cost price, selling price, profit and loss.",
+      "difficulty": "Beginner",
+      "estimatedTime": "20–30 min",
+      "learn": {
+        "title": "Profit & Loss",
+        "sections": [
+          {
+            "heading": "Core formulas",
+            "content": "Profit = SP − CP. Loss = CP − SP."
+          },
+          {
+            "heading": "Tip",
+            "content": "Compare SP and CP before deciding profit or loss."
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Worked Example",
+          "explanation": "Break the problem into smaller steps, apply the relevant rule, and verify the result."
+        }
+      ],
+      "practice": [
+        {
+          "question": "An item is bought for ₹500 and sold for ₹600. What is the profit/loss?",
+          "options": [
+            "₹75",
+            "₹100",
+            "₹125",
+            "₹150"
+          ],
+          "answer": "₹100",
+          "explanation": "The difference between SP and CP is ₹100.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "An item is bought for ₹800 and sold for ₹720. What is the profit/loss?",
+          "options": [
+            "₹55",
+            "₹80",
+            "₹105",
+            "₹130"
+          ],
+          "answer": "₹80",
+          "explanation": "The difference between SP and CP is ₹80.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "An item is bought for ₹1200 and sold for ₹1500. What is the profit/loss?",
+          "options": [
+            "₹275",
+            "₹300",
+            "₹325",
+            "₹350"
+          ],
+          "answer": "₹300",
+          "explanation": "The difference between SP and CP is ₹300.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "An item is bought for ₹750 and sold for ₹675. What is the profit/loss?",
+          "options": [
+            "₹50",
+            "₹75",
+            "₹100",
+            "₹125"
+          ],
+          "answer": "₹75",
+          "explanation": "The difference between SP and CP is ₹75.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "An item is bought for ₹2000 and sold for ₹2400. What is the profit/loss?",
+          "options": [
+            "₹375",
+            "₹400",
+            "₹425",
+            "₹450"
+          ],
+          "answer": "₹400",
+          "explanation": "The difference between SP and CP is ₹400.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "An item is bought for ₹900 and sold for ₹990. What is the profit/loss?",
+          "options": [
+            "₹65",
+            "₹90",
+            "₹115",
+            "₹140"
+          ],
+          "answer": "₹90",
+          "explanation": "The difference between SP and CP is ₹90.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "An item is bought for ₹1500 and sold for ₹1350. What is the profit/loss?",
+          "options": [
+            "₹125",
+            "₹150",
+            "₹175",
+            "₹200"
+          ],
+          "answer": "₹150",
+          "explanation": "The difference between SP and CP is ₹150.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "An item is bought for ₹400 and sold for ₹520. What is the profit/loss?",
+          "options": [
+            "₹95",
+            "₹120",
+            "₹145",
+            "₹170"
+          ],
+          "answer": "₹120",
+          "explanation": "The difference between SP and CP is ₹120.",
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "averages",
+      "title": "Averages",
+      "description": "Arithmetic mean and placement-style averages.",
+      "difficulty": "Beginner",
+      "estimatedTime": "20–30 min",
+      "learn": {
+        "title": "Averages",
+        "sections": [
+          {
+            "heading": "Formula",
+            "content": "Average = Sum of observations ÷ Number of observations."
+          },
+          {
+            "heading": "Shortcut",
+            "content": "Total = Average × Number of observations."
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Worked Example",
+          "explanation": "Break the problem into smaller steps, apply the relevant rule, and verify the result."
+        }
+      ],
+      "practice": [
+        {
+          "question": "What is the average of 10, 20, 30?",
+          "options": [
+            "18",
+            "20",
+            "22",
+            "25"
+          ],
+          "answer": "20",
+          "explanation": "Sum 60 ÷ 3 values = 20.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "What is the average of 12, 18, 24, 30?",
+          "options": [
+            "19",
+            "21",
+            "23",
+            "26"
+          ],
+          "answer": "21",
+          "explanation": "Sum 84 ÷ 4 values = 21.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "What is the average of 5, 10, 15, 20, 25?",
+          "options": [
+            "13",
+            "15",
+            "17",
+            "20"
+          ],
+          "answer": "15",
+          "explanation": "Sum 75 ÷ 5 values = 15.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "What is the average of 20, 25, 30, 35?",
+          "options": [
+            "25",
+            "27",
+            "29",
+            "32"
+          ],
+          "answer": "27",
+          "explanation": "Sum 110 ÷ 4 values = 27.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "What is the average of 14, 16, 18, 20?",
+          "options": [
+            "15",
+            "17",
+            "19",
+            "22"
+          ],
+          "answer": "17",
+          "explanation": "Sum 68 ÷ 4 values = 17.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "What is the average of 8, 12, 16, 20, 24?",
+          "options": [
+            "14",
+            "16",
+            "18",
+            "21"
+          ],
+          "answer": "16",
+          "explanation": "Sum 80 ÷ 5 values = 16.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "What is the average of 30, 40, 50?",
+          "options": [
+            "38",
+            "40",
+            "42",
+            "45"
+          ],
+          "answer": "40",
+          "explanation": "Sum 120 ÷ 3 values = 40.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "What is the average of 11, 13, 15, 17?",
+          "options": [
+            "12",
+            "14",
+            "16",
+            "19"
+          ],
+          "answer": "14",
+          "explanation": "Sum 56 ÷ 4 values = 14.",
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "time-speed-distance",
+      "title": "Time, Speed & Distance",
+      "description": "Movement problems using speed, time and distance.",
+      "difficulty": "Intermediate",
+      "estimatedTime": "20–30 min",
+      "learn": {
+        "title": "Time, Speed & Distance",
+        "sections": [
+          {
+            "heading": "Core formulas",
+            "content": "Distance = Speed × Time. Speed = Distance ÷ Time."
+          },
+          {
+            "heading": "Units",
+            "content": "Keep units consistent before calculating."
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Worked Example",
+          "explanation": "Break the problem into smaller steps, apply the relevant rule, and verify the result."
+        }
+      ],
+      "practice": [
+        {
+          "question": "A vehicle travels at 60 km/h for 3 hours. What distance does it cover?",
+          "options": [
+            "170",
+            "180",
+            "190",
+            "200"
+          ],
+          "answer": "180",
+          "explanation": "Distance = 60 × 3 = 180 km.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "A vehicle travels at 45 km/h for 4 hours. What distance does it cover?",
+          "options": [
+            "170",
+            "180",
+            "190",
+            "200"
+          ],
+          "answer": "180",
+          "explanation": "Distance = 45 × 4 = 180 km.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "A vehicle travels at 80 km/h for 2 hours. What distance does it cover?",
+          "options": [
+            "150",
+            "160",
+            "170",
+            "180"
+          ],
+          "answer": "160",
+          "explanation": "Distance = 80 × 2 = 160 km.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "A vehicle travels at 50 km/h for 5 hours. What distance does it cover?",
+          "options": [
+            "240",
+            "250",
+            "260",
+            "270"
+          ],
+          "answer": "250",
+          "explanation": "Distance = 50 × 5 = 250 km.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "A vehicle travels at 72 km/h for 3 hours. What distance does it cover?",
+          "options": [
+            "206",
+            "216",
+            "226",
+            "236"
+          ],
+          "answer": "216",
+          "explanation": "Distance = 72 × 3 = 216 km.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "A vehicle travels at 90 km/h for 4 hours. What distance does it cover?",
+          "options": [
+            "350",
+            "360",
+            "370",
+            "380"
+          ],
+          "answer": "360",
+          "explanation": "Distance = 90 × 4 = 360 km.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "A vehicle travels at 40 km/h for 6 hours. What distance does it cover?",
+          "options": [
+            "230",
+            "240",
+            "250",
+            "260"
+          ],
+          "answer": "240",
+          "explanation": "Distance = 40 × 6 = 240 km.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "A vehicle travels at 55 km/h for 2 hours. What distance does it cover?",
+          "options": [
+            "100",
+            "110",
+            "120",
+            "130"
+          ],
+          "answer": "110",
+          "explanation": "Distance = 55 × 2 = 110 km.",
+          "difficulty": "Easy"
+        }
+      ]
+    }
+  ]
+}
