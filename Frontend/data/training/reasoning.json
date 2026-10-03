@@ -1,0 +1,365 @@
+{
+  "trackId": "reasoning",
+  "topics": [
+    {
+      "id": "number-series",
+      "title": "Number Series",
+      "description": "Find patterns in numerical sequences.",
+      "difficulty": "Beginner",
+      "estimatedTime": "20–30 min",
+      "learn": {
+        "title": "Number Series",
+        "sections": [
+          {
+            "heading": "Approach",
+            "content": "Look for repeated addition, subtraction, multiplication, division or known sequences."
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Worked Example",
+          "explanation": "Break the problem into smaller steps, apply the relevant rule, and verify the result."
+        }
+      ],
+      "practice": [
+        {
+          "question": "Next: 2, 4, 8, 16, ?",
+          "options": [
+            "20",
+            "24",
+            "32",
+            "36"
+          ],
+          "answer": "32",
+          "explanation": "Each term is multiplied by 2.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Next: 3, 6, 12, 24, ?",
+          "options": [
+            "36",
+            "42",
+            "48",
+            "54"
+          ],
+          "answer": "48",
+          "explanation": "Each term is multiplied by 2.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Next: 5, 10, 15, 20, ?",
+          "options": [
+            "22",
+            "24",
+            "25",
+            "30"
+          ],
+          "answer": "25",
+          "explanation": "Add 5 each time.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Next: 1, 4, 9, 16, ?",
+          "options": [
+            "20",
+            "24",
+            "25",
+            "30"
+          ],
+          "answer": "25",
+          "explanation": "These are consecutive squares.",
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "coding-decoding",
+      "title": "Coding & Decoding",
+      "description": "Decode simple letter patterns.",
+      "difficulty": "Beginner",
+      "estimatedTime": "20–30 min",
+      "learn": {
+        "title": "Coding & Decoding",
+        "sections": [
+          {
+            "heading": "Approach",
+            "content": "Write the alphabet positions or letter shifts before choosing an option."
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Worked Example",
+          "explanation": "Break the problem into smaller steps, apply the relevant rule, and verify the result."
+        }
+      ],
+      "practice": [
+        {
+          "question": "If CAT becomes DBU, DOG becomes:",
+          "options": [
+            "EPH",
+            "EOG",
+            "DPH",
+            "FOH"
+          ],
+          "answer": "EPH",
+          "explanation": "Each letter shifts forward by one.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "If BOOK becomes CPPL, PEN becomes:",
+          "options": [
+            "QFO",
+            "QEN",
+            "QFM",
+            "RFO"
+          ],
+          "answer": "QFO",
+          "explanation": "Each letter shifts forward by one.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "If A=1, B=2, C=3, value of CAB is:",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "answer": "6",
+          "explanation": "3 + 1 + 2 = 6.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "If SUN becomes TVO, MAP becomes:",
+          "options": [
+            "NBQ",
+            "MBQ",
+            "NBO",
+            "OCP"
+          ],
+          "answer": "NBQ",
+          "explanation": "Each letter shifts forward by one.",
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "direction-sense",
+      "title": "Direction Sense",
+      "description": "Solve movement and direction questions.",
+      "difficulty": "Beginner",
+      "estimatedTime": "20–30 min",
+      "learn": {
+        "title": "Direction Sense",
+        "sections": [
+          {
+            "heading": "Tip",
+            "content": "Draw a tiny compass whenever several turns are involved."
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Worked Example",
+          "explanation": "Break the problem into smaller steps, apply the relevant rule, and verify the result."
+        }
+      ],
+      "practice": [
+        {
+          "question": "Walk 5 m north then 5 m east. Direction from start?",
+          "options": [
+            "North",
+            "East",
+            "North-East",
+            "South-East"
+          ],
+          "answer": "North-East",
+          "explanation": "North plus east gives north-east.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Facing north, turn right. You face:",
+          "options": [
+            "West",
+            "East",
+            "South",
+            "North"
+          ],
+          "answer": "East",
+          "explanation": "Right from north is east.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Facing east, turn left. You face:",
+          "options": [
+            "North",
+            "South",
+            "West",
+            "East"
+          ],
+          "answer": "North",
+          "explanation": "Left from east is north.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Walking south, turn left. You face:",
+          "options": [
+            "East",
+            "West",
+            "North",
+            "South"
+          ],
+          "answer": "East",
+          "explanation": "Left from south is east.",
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "blood-relations",
+      "title": "Blood Relations",
+      "description": "Reason about family relationships.",
+      "difficulty": "Beginner",
+      "estimatedTime": "20–30 min",
+      "learn": {
+        "title": "Blood Relations",
+        "sections": [
+          {
+            "heading": "Method",
+            "content": "Translate each relationship into a small family tree."
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Worked Example",
+          "explanation": "Break the problem into smaller steps, apply the relevant rule, and verify the result."
+        }
+      ],
+      "practice": [
+        {
+          "question": "A is B's mother. B is C's brother. A is C's:",
+          "options": [
+            "Sister",
+            "Mother",
+            "Aunt",
+            "Grandmother"
+          ],
+          "answer": "Mother",
+          "explanation": "A is also C's mother.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "P is Q's father. Q is R's sister. P is R's:",
+          "options": [
+            "Father",
+            "Uncle",
+            "Brother",
+            "Grandfather"
+          ],
+          "answer": "Father",
+          "explanation": "Q and R are siblings.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "X is Y's brother. Y is Z's mother. X is Z's:",
+          "options": [
+            "Father",
+            "Uncle",
+            "Brother",
+            "Cousin"
+          ],
+          "answer": "Uncle",
+          "explanation": "X is the brother of Z's mother.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "M is N's daughter. N is O's son. M is O's:",
+          "options": [
+            "Granddaughter",
+            "Daughter",
+            "Sister",
+            "Aunt"
+          ],
+          "answer": "Granddaughter",
+          "explanation": "M is the daughter of O's son.",
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "syllogisms",
+      "title": "Syllogisms",
+      "description": "Evaluate simple logical statements.",
+      "difficulty": "Beginner",
+      "estimatedTime": "20–30 min",
+      "learn": {
+        "title": "Syllogisms",
+        "sections": [
+          {
+            "heading": "Tip",
+            "content": "Use only information guaranteed by the statements; do not assume extra facts."
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Worked Example",
+          "explanation": "Break the problem into smaller steps, apply the relevant rule, and verify the result."
+        }
+      ],
+      "practice": [
+        {
+          "question": "All roses are flowers. Some flowers are red. Must be true:",
+          "options": [
+            "All roses are red",
+            "All red are roses",
+            "All roses are flowers",
+            "No flowers are roses"
+          ],
+          "answer": "All roses are flowers",
+          "explanation": "It is directly stated.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "All cats are animals. All animals need food. Therefore:",
+          "options": [
+            "All cats need food",
+            "No cats need food",
+            "Some animals are cats",
+            "All food is cats"
+          ],
+          "answer": "All cats need food",
+          "explanation": "The conclusion follows transitively.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "All engineers are graduates. Ravi is an engineer. Therefore:",
+          "options": [
+            "Ravi is a graduate",
+            "Ravi is a doctor",
+            "All graduates are engineers",
+            "No engineer is a graduate"
+          ],
+          "answer": "Ravi is a graduate",
+          "explanation": "Ravi belongs to the engineer group.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Some books are novels. Definitely true:",
+          "options": [
+            "All books are novels",
+            "At least some books are novels",
+            "No books are novels",
+            "All novels are books"
+          ],
+          "answer": "At least some books are novels",
+          "explanation": "This restates the statement.",
+          "difficulty": "Easy"
+        }
+      ]
+    }
+  ]
+}
