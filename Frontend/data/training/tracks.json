@@ -1,0 +1,38 @@
+[
+  {
+    "id": "aptitude",
+    "name": "Aptitude",
+    "description": "Quantitative aptitude for placement tests.",
+    "icon": "📊"
+  },
+  {
+    "id": "reasoning",
+    "name": "Logical Reasoning",
+    "description": "Reasoning patterns and problem solving for assessments.",
+    "icon": "🧩"
+  },
+  {
+    "id": "verbal",
+    "name": "Verbal Ability",
+    "description": "Grammar, vocabulary and reading skills.",
+    "icon": "📝"
+  },
+  {
+    "id": "dsa",
+    "name": "Data Structures & Algorithms",
+    "description": "Core DSA concepts and interview problem solving.",
+    "icon": "💻"
+  },
+  {
+    "id": "sql",
+    "name": "SQL",
+    "description": "Queries, joins, aggregation and database problem solving.",
+    "icon": "🗄️"
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "description": "Python programming fundamentals and problem solving.",
+    "icon": "🐍"
+  }
+]
