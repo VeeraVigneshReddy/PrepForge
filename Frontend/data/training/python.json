@@ -1,0 +1,365 @@
+{
+  "trackId": "python",
+  "topics": [
+    {
+      "id": "basics",
+      "title": "Python Basics",
+      "description": "Variables, types and expressions.",
+      "difficulty": "Beginner",
+      "estimatedTime": "20–30 min",
+      "learn": {
+        "title": "Python Basics",
+        "sections": [
+          {
+            "heading": "Tip",
+            "content": "Understand what each operator returns before combining expressions."
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Worked Example",
+          "explanation": "Break the problem into smaller steps, apply the relevant rule, and verify the result."
+        }
+      ],
+      "practice": [
+        {
+          "question": "type(10) returns:",
+          "options": [
+            "int",
+            "float",
+            "str",
+            "list"
+          ],
+          "answer": "int",
+          "explanation": "10 is an integer.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Assignment operator:",
+          "options": [
+            "=",
+            "==",
+            ":=",
+            "=>"
+          ],
+          "answer": "=",
+          "explanation": "= assigns a value.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "7 // 2 equals:",
+          "options": [
+            "2",
+            "3",
+            "3.5",
+            "4"
+          ],
+          "answer": "3",
+          "explanation": "// performs floor division.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "2 ** 3 equals:",
+          "options": [
+            "5",
+            "6",
+            "8",
+            "9"
+          ],
+          "answer": "8",
+          "explanation": "** is exponentiation.",
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "conditions-loops",
+      "title": "Conditions & Loops",
+      "description": "Control flow for Python programs.",
+      "difficulty": "Beginner",
+      "estimatedTime": "20–30 min",
+      "learn": {
+        "title": "Conditions & Loops",
+        "sections": [
+          {
+            "heading": "Tip",
+            "content": "Trace each condition and loop iteration rather than guessing the final output."
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Worked Example",
+          "explanation": "Break the problem into smaller steps, apply the relevant rule, and verify the result."
+        }
+      ],
+      "practice": [
+        {
+          "question": "Keyword for a conditional:",
+          "options": [
+            "if",
+            "for",
+            "check",
+            "when"
+          ],
+          "answer": "if",
+          "explanation": "if starts a condition.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Loop commonly used over a sequence:",
+          "options": [
+            "for",
+            "repeat",
+            "iterate",
+            "loop"
+          ],
+          "answer": "for",
+          "explanation": "for iterates over iterables.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "range(3) iterates over:",
+          "options": [
+            "0,1,2",
+            "1,2,3",
+            "0,1,2,3",
+            "3 only"
+          ],
+          "answer": "0,1,2",
+          "explanation": "The stop value is excluded.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Keyword that exits a loop:",
+          "options": [
+            "break",
+            "stop",
+            "exitloop",
+            "quit"
+          ],
+          "answer": "break",
+          "explanation": "break terminates the loop.",
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "functions",
+      "title": "Functions",
+      "description": "Reusable blocks of Python code.",
+      "difficulty": "Beginner",
+      "estimatedTime": "20–30 min",
+      "learn": {
+        "title": "Functions",
+        "sections": [
+          {
+            "heading": "Tip",
+            "content": "Break repeated logic into functions with clear parameters and return values."
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Worked Example",
+          "explanation": "Break the problem into smaller steps, apply the relevant rule, and verify the result."
+        }
+      ],
+      "practice": [
+        {
+          "question": "Keyword defining a function:",
+          "options": [
+            "def",
+            "function",
+            "fun",
+            "define"
+          ],
+          "answer": "def",
+          "explanation": "Python uses def.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "return does what?",
+          "options": [
+            "Sends a value back to the caller",
+            "Prints automatically",
+            "Stops Python forever",
+            "Creates a loop"
+          ],
+          "answer": "Sends a value back to the caller",
+          "explanation": "return exits the function and can return a value.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Call function f:",
+          "options": [
+            "f()",
+            "f[]",
+            "f{}",
+            "call f"
+          ],
+          "answer": "f()",
+          "explanation": "Parentheses invoke a function.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "A parameter is:",
+          "options": [
+            "A variable in a function definition",
+            "Only a returned value",
+            "A module",
+            "A loop"
+          ],
+          "answer": "A variable in a function definition",
+          "explanation": "Parameters receive arguments.",
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "collections",
+      "title": "Lists, Sets & Dictionaries",
+      "description": "Work with common Python collections.",
+      "difficulty": "Beginner",
+      "estimatedTime": "20–30 min",
+      "learn": {
+        "title": "Lists, Sets & Dictionaries",
+        "sections": [
+          {
+            "heading": "Core idea",
+            "content": "Lists are ordered and mutable; sets store unique values; dictionaries map keys to values."
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Worked Example",
+          "explanation": "Break the problem into smaller steps, apply the relevant rule, and verify the result."
+        }
+      ],
+      "practice": [
+        {
+          "question": "Key-value collection:",
+          "options": [
+            "Dictionary",
+            "Tuple",
+            "Set",
+            "String"
+          ],
+          "answer": "Dictionary",
+          "explanation": "Dictionaries map keys to values.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Collection that removes duplicates:",
+          "options": [
+            "Set",
+            "List",
+            "Tuple",
+            "String"
+          ],
+          "answer": "Set",
+          "explanation": "Sets contain unique elements.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Mutable collection:",
+          "options": [
+            "List",
+            "Tuple",
+            "String literal",
+            "Integer"
+          ],
+          "answer": "List",
+          "explanation": "Lists can be modified.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Dictionary access for key name:",
+          "options": [
+            "d['name']",
+            "d(name)",
+            "d.name only",
+            "d->name"
+          ],
+          "answer": "d['name']",
+          "explanation": "Square brackets access by key.",
+          "difficulty": "Easy"
+        }
+      ]
+    },
+    {
+      "id": "strings",
+      "title": "Strings",
+      "description": "Manipulate and inspect text.",
+      "difficulty": "Beginner",
+      "estimatedTime": "20–30 min",
+      "learn": {
+        "title": "Strings",
+        "sections": [
+          {
+            "heading": "Tip",
+            "content": "Practice indexing, slicing, searching and common string methods."
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Worked Example",
+          "explanation": "Break the problem into smaller steps, apply the relevant rule, and verify the result."
+        }
+      ],
+      "practice": [
+        {
+          "question": "'hello'.upper() returns:",
+          "options": [
+            "HELLO",
+            "hello",
+            "Hello",
+            "ERROR"
+          ],
+          "answer": "HELLO",
+          "explanation": "upper() converts to uppercase.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "'Python'[0] returns:",
+          "options": [
+            "P",
+            "y",
+            "n",
+            "Python"
+          ],
+          "answer": "P",
+          "explanation": "Index 0 is the first character.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Method that splits a string into a list:",
+          "options": [
+            "split",
+            "divide",
+            "cut",
+            "explode"
+          ],
+          "answer": "split",
+          "explanation": "split() separates text.",
+          "difficulty": "Easy"
+        },
+        {
+          "question": "Operator that concatenates strings:",
+          "options": [
+            "+",
+            "* only",
+            "&",
+            "% only"
+          ],
+          "answer": "+",
+          "explanation": "+ concatenates strings.",
+          "difficulty": "Easy"
+        }
+      ]
+    }
+  ]
+}
