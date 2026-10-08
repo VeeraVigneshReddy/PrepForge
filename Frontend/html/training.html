@@ -161,7 +161,83 @@
         grid-template-columns: 1fr;
     }
 }
+/* =========================================
+   TRAINING BUTTONS
+========================================= */
 
+#trainingApp button {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* Learn Topic / Continue buttons */
+#trainingApp .learning-card button {
+    width: 100%;
+    background: #2868ed;
+    color: white;
+    margin-top: 12px;
+}
+
+#trainingApp .learning-card button:hover {
+    background: #1d56cc;
+    transform: translateY(-1px);
+}
+
+/* Completed topic */
+#trainingApp .learning-card button:disabled {
+    background: #e8edf4;
+    color: #2868ed;
+    cursor: default;
+    transform: none;
+}
+
+
+/* =========================================
+   TOPIC PROGRESS BAR
+========================================= */
+
+#trainingApp .progress-bar {
+    height: 9px;
+    background: #e7ecf3;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 12px;
+}
+
+#trainingApp .progress-fill {
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        #2868ed,
+        #4f8cff
+    );
+    border-radius: 20px;
+    transition: width 0.7s ease-in-out;
+}
+
+
+/* =========================================
+   PROGRESS DETAILS
+========================================= */
+
+#trainingApp .progress-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7px;
+    font-size: 11px;
+    color: #718096;
+}
+
+#trainingApp .progress-details span:last-child {
+    color: #2868ed;
+    font-weight: 600;
+}
 </style>
 </head>
 
